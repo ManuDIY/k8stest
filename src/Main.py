@@ -1,6 +1,6 @@
 import requests
 
 message = "Hello world!"
-hook = "559162162677809162/lnw015w8c-tM2bHL1dSfeGavQB6dA3a7d0gi8RuWAICGmqOGxK5E3Evbrtdkeg5rrGeA"  # replace w/ ur hook
+hook = "616744282329579610/VuzdsQr6uhudvqYE7UToBSsGObOu_jtkeJeeR_zGRrimTq7buelB9TDoLDyGl1bIxQuv"  # replace w/ ur hook
 response = requests.post("https://discordapp.com/api/webhooks/{hook}".format(hook=hook),
                          json={"content": message})
